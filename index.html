@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <title>PaintJS</title>
+  </head>
+  <body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+      <div class="controls_range">
+                            <!-- value is default range -->
+        <input type="range" id="jsRange" min="1%" max="100%" value="25%" step="10%">
+      </div>
+      <div class="controls_btns">
+        <button id="jsMode">Fill</button>
+        <button id="jsMode">Save</button>
+      </div>
+      <div class="controls_colors" id="jsColors">
+        <div class="controls_color" style="background-color:black"> </div>
+        <div class="controls_color" style="background-color:white"> </div>
+        <div class="controls_color" style="background-color:red"> </div>
+        <div class="controls_color" style="background-color:orange"> </div>
+        <div class="controls_color" style="background-color:yellow"> </div>
+        <div class="controls_color" style="background-color:green"> </div>
+        <div class="controls_color" style="background-color:powderblue"> </div>
+        <div class="controls_color" style="background-color:blue"> </div>
+        <div class="controls_color" style="background-color:purple"> </div>
+        </div>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
